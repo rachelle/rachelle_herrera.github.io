@@ -68,7 +68,7 @@
       <div class="row">
         <div class="col s12 m12 l12">
           <div class="about-me center">
-            <h2 class="about-text animated zoomInUp">About Me</h2>
+            <h2 class="section-text animated zoomInUp">About Me</h2>
             <p class="about-paragraph-text">Finding my passion in software development has allowed my constant curiosity to manifest itself in lines of code. I see software developing as my chance to contribute something great to the world, where my desire to discover, learn and contribute to new technologies is what has enabled me to connect with so many great people within the growing Los Angeles tech community.</p>
         
             <p class="about-me-more">Nothing excites me more than using design-thinking and people skills to tackle interesting and complex problems while creating fun and novel applications. I am looking for meaningful and engaging opportunities to help me grow as a software engineer/web developer.</p>
@@ -79,22 +79,37 @@
   </div>
 
   <!-- Portfolio Section -->
+
   <div class="portfolio-section">
     <div class="container">
       <div class="row">
         <div class="col s12 m12 l12">
             
-          <h1 class="center">Portfolio</h1>
+          <h2 class="section-text center">Portfolio</h2>
           <div class="wrap">
           
           <!-- Flexbox Image Slider -->
           <button onclick="prev()">&laquo;</button> 
-          <div class="sticky">♥</div>
+
+          
           <div class="scroller">
+
             <ul class="projects">
-              <li class="project" style="background-image:url(images/fitgeneration.jpg);">Fitgeneration</li>
-              <li class="project" style="background-image:url(images/charms.jpg);">Charms</li>
-              <li class="project" style="background-image:url(images/booty_builder.jpg);">Booty Builder</li>
+              <li class="project" style="background-image:url(images/fitgeneration.jpg); height: 380px;">Fitgeneration
+                   <div class="sticky">
+                      <h6>Technologies: Node.js, MongoDB, Express.js, <br/>Materialize.CSS, Socket.io, Javascript, CSS3, and HTML5</h6>
+                   </div>
+              </li>
+              <li class="project" style="background-image:url(images/charms.jpg); height: 380px;">Charms
+                <div class="sticky">
+                  <h6>Technologies: Ruby on Rails, PostgreSQL, Google Map API,<br/> Jquery, Javascript, Materialize.CSS, CSS3, and HTML5</h6>
+                </div>
+              </li>
+              <li class="project" style="background-image:url(images/photoSnap.png); height: 380px;">PhotoSnap
+                <div class="sticky">
+                  <h6>Technologies: Ruby on Rails, PostgreSQL, Bootstrap<br/> Javascript, CSS3, and HTML5</h6>
+                </div>
+              </li>
             </ul>
           </div>
           <button onclick="next()">&raquo;</button> 
