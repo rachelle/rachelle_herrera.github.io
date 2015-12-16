@@ -48,9 +48,61 @@
   </div>
   
   <!-- Parallax banner -->
-  <div class="parallax-container">
-    <div class="parallax"><img src="images/parallax1.jpg"></div>
+  <div id="personal-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center white-text text-lighten-2">Rachelle Herrera</h1>
+        <div class="row center">
+          <h4 class="header col s12 white-text">Web Devloper | Los Angeles</h4>
+        </div>
+      </div>
+
+      <div class="parallax"><img src="images/la-skyline.jpg"></div>
+    </div>
   </div>
+
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="about-me center">
+            <h2 class="about-text animated zoomInUp">About Me</h2>
+            <p class="about-paragraph-text">Finding my passion in software development has allowed my constant curiosity to manifest itself in lines of code. I see software developing as my chance to contribute something great to the world, where my desire to discover, learn and contribute to new technologies is what has enabled me to connect with so many great people within the growing Los Angeles tech community.</p>
+        
+            <p class="about-me-more">Nothing excites me more than using design-thinking and people skills to tackle interesting and complex problems while creating fun and novel applications. I am looking for meaningful and engaging opportunities to help me grow as a software engineer/web developer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="portfolio-section">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m12 l12">
+            
+          <h1 class="center">Portfolio</h1>
+          <div class="wrap">
+          
+          <!-- Flexbox Image Slider -->
+          <button onclick="prev()">&laquo;</button> 
+          <div class="sticky">♥</div>
+          <div class="scroller">
+            <ul class="projects">
+              <li class="project" style="background-image:url(images/fitgeneration.jpg);">Fitgeneration</li>
+              <li class="project" style="background-image:url(images/charms.jpg);">Charms</li>
+              <li class="project" style="background-image:url(images/booty_builder.jpg);">Booty Builder</li>
+            </ul>
+          </div>
+          <button onclick="next()">&raquo;</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div> <!-- end of portfolio section -->
 
   
 
@@ -61,6 +113,7 @@
   <script src="js/jquery-1.11.3.min.js"></script>
   <script type="text/javascript" src="js/materialize.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
   <script src="js/rachelle.js"></script>
   
   </body> 
