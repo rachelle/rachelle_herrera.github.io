@@ -13,7 +13,8 @@ html{
 }
 
 .section-text { 
-  color: #009688;
+  color: #34495E;
+  padding-top: 20px;
 }
 
 .sticky{
@@ -83,4 +84,16 @@ button{
 .portfolio-section { 
   width: 100%;
   height: 520px;
+}
+
+.skills-icon { 
+  width: 180px;
+  height: 180px;
+  padding: 0px;
+}
+
+.skills-section { 
+  background-color: #F2F5F4;
+  width: 100%;
+  margin: 0px;
 }
