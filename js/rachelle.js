@@ -1,1 +1,4 @@
-rachelle.js
+$(document).ready(function(){
+    $('.parallax').parallax();
+});
+        

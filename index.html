@@ -5,89 +5,64 @@
                 Title and Meta Tags
     =============================================== -->
     <meta charset="utf-8"> 
-    <title>Rachelle A. Herrera</title>
+    <title>Rachelle Herrera | Web Developer</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+    <!-- ==============================================
+               Fonts
+    =============================================== -->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,400italic,600,600italic' rel='stylesheet' type='text/css'>
 
     <!-- ==============================================
                         CSS
     =============================================== -->
-   
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="css/rachelle.css">
-
-    <!-- ==============================================
-                      Scripts
-    =============================================== -->
-
-    <script src="js/jquery-1.11.3.min.js"></script>
-    
   </head>
   <body> 
-  <!-- ==============================================
-    MAIN NAV
-  =============================================== -->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Brand</a>
-      </div>
 
-      <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
+  <!-- Main Navbar -->
+  <div class="navbar-fixed">
+    <nav data-scroll-header>
+      <div class="nav-wrapper white">
+        <a href="#!" class="brand-logo" id="brand-initial">RH</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down"> 
+          <li><a>About Me</a></li> 
+          <li><a>Projects</a></li> 
+          <li><a>Contact Me</a></li>
+        </ul>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+        <!-- side-navbar -->
+        <ul class="side-nav" id="mobile-demo">
+          <li><a>About Me</a></li> 
+          <li><a>Projects</a></li> 
+          <li><a>Contact Me</a></li>
+          <li><a>Resume</a></li>
+        </ul>
+      </div> 
+    </nav> 
+  </div>
+  
+  <!-- Parallax banner -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax1.jpg"></div>
+  </div>
 
- 
-
+  
 
 
   <!-- ==============================================
                         JS
-    =============================================== -->
-    <script src="js/jquery-1.11.3.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/rachelle.js"></script>
+  =============================================== -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/materialize.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+  <script src="js/rachelle.js"></script>
+  
   </body> 
-</html
+
+</html>
