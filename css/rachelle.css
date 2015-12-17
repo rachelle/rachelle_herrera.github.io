@@ -235,8 +235,12 @@ button{
   padding-top: 5px;
 }
 
-#resume-footer { 
-  background-color: #2F4052;
+#resume-banner { 
+  height: 300px;
+}
+
+.download-resume {
+  margin-top: 50px;
 }
 
 
