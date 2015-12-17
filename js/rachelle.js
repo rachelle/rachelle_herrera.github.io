@@ -1,6 +1,11 @@
-$(document).ready(function(){
+(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
     $('.parallax').parallax();
-});
+
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
 
 var d = document;
 var wrap = d.querySelector('.wrap');
