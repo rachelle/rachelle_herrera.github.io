@@ -101,3 +101,28 @@ button{
 #personal-footer { 
   background-color: #2F4052;
 }
+
+.contact-icon { 
+  width: 85px;
+  height: 85px; 
+  background-color: white;
+    border-radius: 50%;
+}
+
+#personal-banner { 
+  height: 460px;
+}
+
+.coding-banner { 
+  opacity: 0.9;
+  height: 430px;
+}
+
+#connected-content { 
+  height: 390px;
+}
+
+#contact-section { 
+  margin-top: 70px;
+
+}
