@@ -26,58 +26,59 @@
   <body> 
 
   <!-- Main Navbar -->
-  <div class="navbar-fixed">
+ <div class="navbar-fixed">
     <nav data-scroll-header>
       <div class="nav-wrapper white">
         <a href="#!" class="brand-logo" id="brand-initial">RH</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down"> 
-          <li><a class="link-text">About Me</a></li> 
-          <li><a class="link-text">Connect</a></li> 
-          <li><a class="link-text">Skills</a></li>
-          <li><a class="link-text">Portfolio</a></li>
-          <li><a class="link-text">Resume</a></li>
+          <li><a class="link-text" href="#about-content">About Me</a></li> 
+          <li><a class="link-text" href="#connect-content">Connect</a></li> 
+          <li><a class="link-text" href="#skills-content">Skills</a></li>
+          <li><a class="link-text" href="#portfolio-content">Portfolio</a></li>
+          <li><a class="link-text" href="#resume-content">Resume</a></li>
         </ul>
 
         <!-- side-navbar -->
         <ul class="side-nav" id="mobile-demo">
-          <li class="link-text"><a>About Me</a></li> 
-          <li><a>Connect</a></li> 
-          <li><a>Skills</a></li>
-          <li><a>Portfolio</a></li>
-          <li><a>Resume</a></li>
+          <li><a class="link-text" href="#about-content">About Me</a></li> 
+          <li><a class="link-text" href="#connect-content">Connect</a></li> 
+          <li><a class="link-text" href="#skills-content">Skills</a></li>
+          <li><a class="link-text" href="#portfolio-content">Portfolio</a></li>
+          <li><a class="link-text" href="#resume-content">Resume</a></li>
         </ul>
       </div> 
-    </nav> 
+    </div>
   </div>
-  
+</nav> 
+
 <!-- Parallax banner -->
 <header id="top-header" role="banner">
-<div id="personal-banner" class="parallax-container">
-  <div class="section no-pad-bot">
-    <div class="container">
-      <h1 class="header-name center white-text text-lighten-2">Rachelle Herrera</h1>
+  <div id="personal-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header-name center white-text text-lighten-2">Rachelle Herrera</h1>
+        <div class="row center">
+          <h4 class="header col s12 white-text">Web Devloper | Los Angeles</h4>
+        </div>
+      </div>
       <div class="row center">
-        <h4 class="header col s12 white-text">Web Devloper | Los Angeles</h4>
+        <div class="intro-arrow">
+          <a href="#main-content">
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/arrow.png" alt="down arrow"></a>
+        </div>
       </div>
-    </div>
-    <div class="row center">
-      <div class="intro-arrow">
-        <a href="#main-content">
-        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/arrow.png" alt="down arrow"></a>
-      </div>
-    </div>
         
-    <div class="parallax"><img src="images/la-skyline.jpg"></div>
+      <div class="parallax"><img src="images/la-skyline.jpg"></div>
+    </div>
   </div>
-</div>
 </header>
 
 <!-- About Me Section -->
 <main id="main-content">
   <div role="main">
     <div class="container">
-      <div class="about-me center">
+      <div id="about-content" class="about-me center">
         <div class="row">
           <div class="col s12 m12 l12">
             <img class="profile-picture" src="images/rachelle.png">
@@ -94,9 +95,9 @@
 </main>
 
 <!-- Contact Section -->
-<section class="connected-content">
+<section class="connected-section">
   <div class="parallax-container">
-    <div class="no-pad-bot"><br>
+    <div id="connect-content" class="no-pad-bot"><br>
     <h4 class="connect-text center white-text">Let's get connected</h4>
       <div id="contact-section" class="container">
         <div class="container">
@@ -126,7 +127,7 @@
 <section class="skills-section">
   <div class="container">
     <div class="row center">
-      <div class="col s12">
+      <div id="skills-content" class="col s12">
       <h5 class="section-text">SKILLS</h5>
       
       <!-- HTML Icon -->
@@ -327,7 +328,7 @@
 <!-- end of skills section -->
 
 <!-- Portfolio Section -->
-<section class="portfolio-section">
+<section id="portfolio-content" class="portfolio-section">
   <div class="container">
     <div class="row">
       <div class="col s12 m12 l12">
@@ -366,7 +367,7 @@
 <!-- end of portfolio section -->
 
   <!-- Parallax banner -->
-<section class="resume-section">
+<section id="resume-content" class="resume-section">
   <div id="resume-banner" class="parallax-container">
     <div class="no-pad-bot">
       <div class="container">
