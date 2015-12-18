@@ -4,14 +4,9 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
-  $(function() {
-    $('a[href*=#]').on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-    });
-  });
 
   }); // end of document ready
+
 })(jQuery); // end of jQuery name space
 
 var d = document;
@@ -37,4 +32,31 @@ function next() {
 }
 
 window.addEventListener('resize', setTransform);
+
+ 
+var target = $(".intro-arrow");
+
+// hide arrow if scrolled down
+// show if scrolled back up
+$(window).scroll(function(){
+  if($(window).scrollTop() > 300){
+    $(target).addClass("hidden");
+  }
+  if($(window).scrollTop() < 300){
+    $(target).removeClass("hidden");
+  }
+});
+
+// handle scroll on click
+target.find("a").click(function(e){
+  e.preventDefault();
+  var anchor = $(this).attr("href");
+  scrollTo(anchor);
+});
+
+// scroller
+function scrollTo(x){
+  $("html,body").animate({scrollTop: $(x).offset().top},'slow');
+}
+
 
