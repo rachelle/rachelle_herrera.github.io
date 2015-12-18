@@ -4,6 +4,13 @@
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
 
+  $(function() {
+    $('a[href*=#]').on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+    });
+  });
+
   }); // end of document ready
 })(jQuery); // end of jQuery name space
 
@@ -30,3 +37,4 @@ function next() {
 }
 
 window.addEventListener('resize', setTransform);
+
